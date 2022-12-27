@@ -1,43 +1,43 @@
-.login{
+.register{
     height: calc(100vh - 50px);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgb(204 130 130 / 50%),rgb(204 130 130 / 50%)), url("https://wallpaperaccess.com/full/2743069.jpg");
+    background: linear-gradient(rgb(204 130 130 / 10%),rgb(204 130 130 / 10%)), url("https://hdwallpaperim.com/wp-content/uploads/2017/09/07/461734-your_name.-anime-stars-sky-horizon-comet-anime_boy.jpg");
     background-size: cover;
 }
-.loginTitle{
+.registerTitle{
     font-size: 50px;
 }
-.loginform{
+.registerform{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
 }
-.loginform > label{
+.registerform > label{
     margin: 10px 0;
 }
-.loginInput{
+.registerInput{
     padding: 10px;
     background-color: white;
     border: none;
 }
-.loginButton{
+.registerButton{
     margin-top: 20px;
     cursor: pointer;
-    background-color: lightcoral;
+    background-color: teal;
     border: none;
     color: white;
     border-radius: 10px;
     padding: 10px;
 }
-.loginRegisterButton{
+.registerLoginButton{
     position: absolute;
     cursor: pointer;
     top: 60px;
     right: 20px;
-    background-color: teal;
+    background-color: lightcoral;
     border: none;
     padding: 10px;
     color: white;
